@@ -1,0 +1,1132 @@
+@media only screen and (max-width: 1199px) {
+
+	.hire-content-section{
+		width: 54%;
+	}
+
+	.dev-title{
+		font-size: 46px;
+		line-height: 58px;
+	}
+
+	.dev-subtxt {
+	    font-size: 17px;
+	    line-height: 28px;
+	    margin-bottom: 26px;
+	}
+
+	.common-btn{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 8px 10px 20px;
+	}
+
+	.common-btn img{
+		width: 22px;
+	}
+
+	.hire-grid-content{
+		width: 44%;
+		background-size: 75%;
+	}
+
+	.bnr-grid-item:nth-child(odd){
+		margin-right: 15px;
+	}
+
+	.bnr-grid-item:nth-child(even){
+		margin-left: 15px;
+	}
+
+	.bnr-grid-item:nth-child(-n+2) {
+	    margin-bottom: 30px;
+	}
+
+	.bnr-grid-item{
+		padding: 20px 26px;
+	}
+
+	.bnr-grid-item img {
+	    width: 85px;
+	}
+
+	.bnr-grid-name{
+		font-size: 18px;
+    	line-height: 26px;
+	}
+
+	.hire-benefits-section:before{
+		top: -55px;
+		background-size: 104px;
+	    width: 104px;
+	    height: 108px;
+	}
+
+	.hire-benefits-section {
+	    padding: 130px 0 40px;
+	}
+
+	.hire-sec-title{
+		font-size: 27px;
+    	line-height: 36px;
+    	margin-bottom: 35px;
+	}
+
+	.hire-sec-title:before{
+		width: 260px;
+    	height: 80px;
+    	left: -15px;
+	}
+
+	.common-grid-wrapper{
+    	grid-gap: 26px;
+	}
+
+	.bg-grd-wrapper{
+		padding: 24px;
+	}
+
+	.icon-bg{
+		width: 52px;
+    	height: 52px;
+    	margin-bottom: 17px;
+	}
+
+	.benefit-title{
+		font-size: 18px;
+    	line-height: 26px;
+    	margin-bottom: 8px;
+	}
+
+	.tabbed-content ul li a img{
+		height: 40px;
+	}
+
+	.bg-dark-blue{
+    	padding: 20px 26px;
+	}
+
+	.hire-dev-content ul{
+		margin: 32px 0;
+	}
+
+	.hire-cost h3{
+		font-size: 28px;
+    	line-height: 36px;
+	}
+
+	.hire-cost p{
+		font-size: 16px;
+    	line-height: 22px;
+	}
+
+	.comparsion-sec {
+	    padding: 0 0 65px;
+	}
+
+	.schedule-call{
+		padding: 35px 35px 40px;
+	}
+
+	.calendar-img{
+		width: 320px;
+		margin-top: -180px;
+	}
+
+	.schedule-call-title{
+		font-size: 30px;
+    	line-height: 38px;
+	}
+
+	.access-top-developer {
+	    padding: 65px 0 80px;
+	}
+
+	.top-dev-grid{
+		padding: 16px;
+    	margin-right: 42px;
+	}
+
+	.top-dev-grid:nth-child(odd):before, 
+	.top-dev-grid:nth-child(2):before{
+		right: -37px;
+		width: 35px;
+    	height: 5px;
+	}
+
+	.top-dev-grid .grid-number{
+		font-size: 48px;
+    	line-height: 54px;
+    	top: 5px;
+	}
+
+	.top-dev-grid .top-dev-icon {
+	    width: 50px;
+	    margin-bottom: 10px;
+	}
+
+	.top-dev-grid .begin-prjt {
+	    font-size: 12px;
+	    padding: 8px 8px 8px 10px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.hire-content-section{
+		margin-top: 35px;
+	}
+
+	.dev-title {
+	    font-size: 36px;
+	    line-height: 44px;
+	    margin-bottom: 12px;
+	}
+
+	.dev-subtxt{
+		font-size: 16px;
+    	line-height: 26px;
+    	margin-bottom: 22px;
+	}
+
+	.hire-grid-content{
+		padding-top: 55px;
+		background-size: 70%;
+	}
+
+	.bnr-grid-item {
+		padding: 18px 22px;
+		width: 47%;
+	}
+
+	.bnr-grid-item img {
+	    width: 70px;
+	}
+
+	.bnr-grid-name {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+
+	.bnr-grid-item:nth-child(-n+2) {
+	    margin-bottom: 20px;
+	}
+
+	.bnr-grid-item:nth-child(odd) {
+	    margin-right: 8px;
+	}
+
+	.bnr-grid-item:nth-child(even) {
+	    margin-left: 8px;
+	}
+
+	.hire-grid-content:before{
+		width: calc(100% + 55px);
+    	height: calc(100% - 55px);
+	}
+
+	.hire-benefits-section:before {
+		top: -55px;
+		background-size: 90px;
+		width: 90px;
+		height: 94px;
+	}
+
+	.hire-benefits-section {
+	    padding: 115px 0 40px;
+	}
+
+	.hire-sec-title {
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 30px;
+	}
+
+	.compare-agency-freelance .hire-sec-title{
+		text-align: center;
+	}
+
+	.style-right.hire-sec-title:before{
+		right: -10px;
+	}
+
+	.our-work-sec .style-right.hire-sec-title:before{
+		right: -40px;
+	}
+
+	.hire-sec-title:before {
+		width: 240px;
+		height: 70px;
+	}
+
+	.common-grid-wrapper{
+		grid-template-columns: auto auto;
+	}
+
+	.hire-us-section {
+	    padding: 65px 0;
+	}
+
+	.tabbed-content{
+		padding: 25px;
+	}
+
+	.tabbed-content .tabs {
+	    margin-bottom: 30px;
+	}
+
+	.tabbed-content ul li a{
+		font-size: 14px;
+    	line-height: 22px;
+	}
+
+	.tabbed-content ul li a img {
+	    height: 36px;
+	}
+
+	.tabbed-content .item.active .tabb-inner-content{
+		padding: 12px;
+    	min-height: 75px;
+	}
+
+	.hire-dev-content ul {
+	    margin: 26px 0;
+	    grid-column-gap: 16px;
+    	grid-row-gap: 10px;
+	}
+
+	.hire-dev-content ul li{
+		padding-left: 20px;
+		background-size: 13px;
+	}
+
+	.dev-costing-sec {
+	    grid-gap: 22px;
+	}
+
+	.bg-dark-blue {
+	    padding: 18px 22px;
+	}
+
+	.hire-list h5{
+		font-size: 17px;
+	    line-height: 21px;
+	    margin-bottom: 12px;
+	}
+
+	.hire-cost{
+		margin: 0px 0 12px;
+    	padding: 12px 0;
+	}
+
+	.hire-cost h3 {
+	    font-size: 26px;
+	    line-height: 34px;
+	}
+
+	.hire-dedicated-dev {
+	    padding: 65px 0 40px;
+	}
+
+	.compare-agency-freelance table tr th{
+		font-size: 20px;
+    	line-height: 28px;
+    	padding: 18px;
+	}
+
+	.compare-agency-freelance table tr td{
+		padding: 8px 8px 4px;
+	}
+
+	.compare-agency-freelance table tr td.thumb-up, 
+	.compare-agency-freelance table tr td.thumb-down{
+		background-position: left 10px top 12px;
+    	background-size: 16px;
+	}
+
+	.comparison-summary{
+		width: 85%;
+    	margin: 35px auto 0;
+	}
+
+	.compare-mobile-img.comparison-image{
+		display: flex;
+		margin: 30px auto;
+	}
+
+	.comparison-section-wrapper{
+		flex-direction: column;
+	}
+
+	.comparison-image{
+		display: none;
+	}
+
+	.compare-agency-freelance{
+		width: 100%;
+	}
+
+	.schedule-call-sec {
+	    padding-top: 200px;
+	}
+
+	.schedule-call {
+	    padding: 32px 32px 36px;
+	}
+
+	.calendar-img {
+	    width: 300px;
+	    margin-top: -160px;
+	}
+
+	.schedule-content{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.schedule-lft-side{
+		margin-bottom: 25px;
+	}
+
+	.schedule-call-title {
+	    font-size: 27px;
+	    line-height: 36px;
+	}
+
+	.schedule-call-title img{
+		margin-left: 18px;
+    	width: 32px;
+	}
+
+	.access-top-developer {
+	    padding: 55px 0 65px;
+	}
+
+	.top-dev-grid-wrapper{
+		flex-wrap: wrap;
+	}
+
+	.top-dev-grid{
+		width: 48%;
+		margin-right: 0px;
+	}
+
+	.top-dev-grid:nth-child(-n+2){
+		margin-bottom: 35px;
+	}
+
+	.top-dev-grid:nth-child(1){
+		order: 1;
+	}
+
+	.top-dev-grid:nth-child(2){
+		order: 2;
+	}
+
+	.top-dev-grid:nth-child(3){
+		order: 4;
+	}
+
+	.top-dev-grid:nth-child(4){
+		order: 3;
+	}
+
+	.top-dev-grid:nth-child(odd):before, .top-dev-grid:nth-child(2):before {
+	    right: -33px;
+	    width: 26px;
+	    height: 4px;
+	}
+
+	.top-dev-grid:nth-child(2):before{
+		bottom: -20px;
+		top: auto;
+		transform: rotate(90deg);
+		left: 50%;
+	}
+
+	.top-dev-grid:nth-child(3):before{
+		left: -33px;
+    	transform: translateY(-50%) rotate(175deg);
+	}
+
+	.our-work-sec {
+	    padding: 65px 0;
+	}
+
+	.our-work-items{
+		margin-top: 15px
+	}
+
+	.project-content h4{
+		font-size: 18px;
+    	line-height: 24px;
+	}
+
+	.our-work-items .info{
+		min-height: 230px;
+	}
+
+	.project-content .common-btn{
+		padding: 8px 6px 8px 14px;
+	}
+
+	.tabbed-content ul li a.active:before{
+		bottom: -30px;
+	}
+
+	.comparsion-sec:before{
+		top: -140px;
+		height: 140px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.hire-content-section {
+		width: 52%;
+	    margin-top: 25px;
+	}
+
+	.dev-title {
+	    font-size: 32px;
+	    line-height: 40px;
+	    margin-bottom: 10px;
+	}
+
+	.hire-grid-content {
+		width: 46%;
+	    padding-top: 45px;
+	    background-size: 65%;
+	    margin-bottom: -50px;
+	}
+
+	.bnr-grid-item {
+	    padding: 14px 12px;
+	    width: 48%;
+	}
+
+	.bnr-grid-item:nth-child(-n+2) {
+	    margin-bottom: 14px;
+	}
+
+	.bnr-grid-item img {
+	    width: 55px;
+	}
+
+	.bnr-grid-name {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.bnr-grid-item:nth-child(odd) {
+	    margin-right: 4px;
+	}
+
+	.bnr-grid-item:nth-child(even) {
+	    margin-left: 4px;
+	}
+
+	.common-padding{
+    	padding-bottom: 55px;
+	}
+
+	.hire-benefits-section {
+	    padding: 100px 0 40px;
+	}
+
+	.hire-sec-title {
+	    font-size: 22px;
+	    line-height: 30px;
+	    margin-bottom: 25px;
+	}
+
+	.hire-sec-title:before {
+	    width: 220px;
+	    height: 65px;
+	}
+
+	.bg-grd-wrapper {
+	    padding: 20px;
+	}
+
+	.icon-bg {
+		width: 48px;
+		height: 48px;
+		margin-bottom: 15px;
+		padding: 8px;
+	}
+
+	.benefit-title{
+		font-size: 16px;
+    	line-height: 24px;
+	}
+
+	.hire-content-wrapper{
+		flex-direction: column;
+	}
+
+	.hire-us-img{
+		display: none;
+	}
+
+	.mobile-img{
+		display: flex !important;
+	}
+
+	.hire-us-img{
+		margin: 30px auto 0;
+		width: 35%;
+	}
+
+	.hire-us-content{
+		width: 100%;
+    	margin: 0px;
+	}
+
+	.tabbed-content .item.active{
+		border-radius: 16px;
+		box-shadow: 16px 16px 20px rgb(0 0 0 / 4%);
+		background-color: #fff;
+	}
+
+	.tabb-inner-content{
+		background-color: transparent;
+		padding: 0px;
+		border-radius: 0px;
+		box-shadow: none;
+	}
+
+	.hire-dev-sec{
+		flex-direction: column;
+	}
+
+	.hire-dev-content{
+		width: 100%;
+		text-align: center;
+	}
+
+	.hire-dev-content ul li{
+		text-align: left;
+	}
+
+	.hire-dev-img{
+		display: none;
+	}
+
+	.mobile-img.hire-dev-img{
+		margin: 40px auto 0;
+		width: 45%;
+	}
+
+	.table-responsive{
+		overflow-x: auto;
+	}
+
+	.compare-agency-freelance table tr th:not(:first-child){
+		width: 250px;
+	}
+
+	.compare-agency-freelance table tr th {
+	    font-size: 18px;
+	    line-height: 26px;
+	    padding: 15px;
+	}
+
+	.compare-agency-freelance table tr td{
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.comparison-summary{
+		width: 100%;
+	}
+
+	.comparsion-sec {
+	    padding: 0 0 50px;
+	}
+
+	.style-right.hire-sec-title:before {
+	    right: -10px;
+	}
+
+	.compare-agency-freelance table{
+		width: 100%;
+	}
+
+	.schedule-call-sec {
+	    padding-top: 160px;
+	}
+
+	.schedule-call {
+	    padding: 28px 28px 32px;
+	}
+
+	.calendar-img {
+	    width: 250px;
+	    margin-top: -150px;
+	}
+
+	.schedule-call-title {
+		display: inline-block;
+	}
+
+	.schedule-call-title img {
+	    margin-left: 12px;
+	    width: 28px;
+	    top: 6px;
+	    position: relative;
+	}
+
+	.hire-us-section {
+	    padding: 65px 0 45px;
+	}
+
+	.hire-dedicated-dev {
+	    padding: 45px 0 40px;
+	}
+
+	.top-dev-grid:nth-child(-n+2) {
+	    margin-bottom: 30px;
+	}
+
+	.top-dev-grid{
+		width: 47%;
+	}
+
+	.top-dev-grid:nth-child(odd):before{
+		right: -30px;
+	}
+
+	.top-dev-grid:nth-child(2):before{
+		bottom: -16px;
+	}
+
+	.our-work-items{
+		flex-wrap: wrap;
+    	flex-direction: column;
+	}
+
+	.our-work-items .work-item{
+		width: 100%;
+		transform: none;
+		display: flex;
+		padding: 6px 0;
+		margin-bottom: 10px;
+		min-height: auto;
+	}
+
+	.our-work-items .info{
+		min-height: auto;
+		width: 100%;
+	    margin-bottom: 30px;
+	}
+
+	.our-work-items .work-item span{
+		position: relative;
+	    top: auto;
+	    transform: none;
+	    padding-left: 70px;
+	    display: inline-block;
+	    left: 0;
+	}
+
+	.our-work-items .work-item span:before{
+		left: 30px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+
+	body{
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.container{
+		padding: 0 15px;
+	}
+
+	.hire-bnr-conntent{
+		flex-direction: column;
+	}
+
+	.hire-content-section,
+	.hire-grid-content{
+		width: 100%;
+	}
+
+	.hire-content-section{
+		margin-top: 0px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.hire-grid-content{
+		margin-bottom: -90px;
+	}
+
+	.hire-grid-content:before {
+	    width: calc(100% + 15px);
+	    height: calc(100% - 45px);
+	}
+
+	.bnr-grid-item {
+	    padding: 18px 24px;
+	    width: 48%;
+	}
+
+	.hire-sec-title {
+	    font-size: 20px;
+	    line-height: 28px;
+	    text-align: center;
+	}
+
+	.hire-us-content p,
+	.hire-dev-content p{
+		text-align: center;
+	}
+
+	.hire-sec-title:before {
+	    width: 180px;
+	    height: 57px;
+	}
+
+	.tabbed-content ul{
+		white-space: nowrap;
+		overflow-x: auto;
+		padding-bottom: 20px;
+	}
+
+	.tabbed-content ul li a.active:before {
+		display: none;
+	}
+
+	.common-grid-wrapper {
+	    grid-gap: 20px;
+	}
+
+	.tabbed-content .tabs li:not(:last-child){
+		margin-right: 25px;
+	}
+
+	.tabbed-content ul li a img {
+	    height: 32px;
+	}
+
+	.tabbed-content {
+	    padding: 20px;
+	}
+
+	.hire-dev-content ul{
+		grid-template-columns: auto;
+	}
+
+	.dev-costing-sec {
+	    grid-gap: 18px;
+	}
+
+	.bg-dark-blue {
+	    padding: 16px 18px;
+	}
+
+	.hire-list h5 {
+	    font-size: 16px;
+	    line-height: 20px;
+	    margin-bottom: 10px;
+	}
+
+	.hire-cost h3 {
+	    font-size: 24px;
+	    line-height: 32px;
+	}
+
+	.schedule-call-sec {
+	    padding-top: 140px;
+	}
+
+	.schedule-call {
+	    padding: 24px 24px 28px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    text-align: center;
+	    background-size: cover;
+	}
+
+	.schedule-content{
+		align-items: center;
+	}
+
+	.schedule-call-title {
+	    font-size: 24px;
+	    line-height: 30px;
+	}
+
+	.top-dev-grid{
+		width: 100%;
+	}
+
+	.top-dev-grid:nth-child(-n+2),
+	.top-dev-grid:nth-child(3){
+	    margin-bottom: 40px;
+	}
+
+	.top-dev-grid:nth-child(3){
+		order: 3;
+	}
+
+	.top-dev-grid:nth-child(4){
+		order: 4;
+	}
+
+	.top-dev-grid:nth-child(odd):before, .top-dev-grid:nth-child(2):before{
+		left: 50%;
+		transform: translateX(-50%) rotate(90deg);
+    	bottom: -22px;
+    	top: auto;
+	}
+
+	.hire-grid-title{
+		min-height: auto;
+	}
+
+	.our-work-sec {
+	    padding: 50px 0;
+	}
+
+	.hire-benefits-section:before{
+		top: -30px;
+	}
+
+	.hire-sec-title:before{
+    	left: -10px;
+	}
+
+	.tabbed-content .tabs{
+		margin-bottom: 0px;
+	}
+
+	.comparsion-sec:before {
+	    top: -120px;
+	    height: 120px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+
+	.common-grid-wrapper{
+		grid-template-columns: auto;
+	}
+
+	.tabbed-content ul li a img {
+	    height: 30px;
+	}
+
+	.tabbed-content ul li a {
+	    font-size: 13px;
+	    line-height: 20px;
+	}
+
+	.tabbed-content .item .tabb-inner-content{
+		text-align: center;
+	}
+
+	.tabbed-content .item.active:before{
+		display: none;
+	}
+
+	.tabbed-content .item.active .tabb-inner-content{
+		padding: 10px;
+		font-size: 13px;
+    	line-height: 20px;
+	}
+
+	.dev-costing-sec{
+		grid-template-columns: auto;
+	}
+
+	.comparsion-sec {
+	    padding: 0 0 40px;
+	}
+
+	.comparison-summary{
+		margin: 25px auto 0;
+	}
+
+	.calendar-img {
+	    width: 220px;
+	    margin-top: -130px;
+	}
+
+	.schedule-call-title img{
+		margin-left: 10px;
+    	width: 26px;
+	}
+
+	.schedule-lft-side span{
+		font-size: 12px;
+    	line-height: 16px;
+	}
+
+	.top-dev-grid .grid-number {
+	    font-size: 42px;
+	    line-height: 48px;
+	    top: 2px;
+	    right: 15px;
+	}
+
+	.top-dev-grid .top-dev-icon {
+	    width: 45px;
+	    margin-bottom: 8px;
+	}
+
+	.hire-grid-title{
+		font-size: 15px;
+    	line-height: 22px;
+    	margin-bottom: 8px;
+	}
+
+	.hire-us-section {
+	    padding: 45px 0 35px;
+	}
+
+	.hire-dedicated-dev {
+	    padding: 30px 0 40px;
+	}
+
+	.hire-us-img,
+	.mobile-img.hire-dev-img{
+		width: 100%;
+	}
+
+	.project-info-wrapper{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.project-content,
+	.project-mock-up{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	.hire-content-section{
+		margin-bottom: 35px;
+	}
+
+	.dev-title{
+		font-size: 28px;
+    	line-height: 36px;
+	}
+
+	.dev-subtxt {
+	    font-size: 15px;
+	    line-height: 24px;
+	    margin-bottom: 18px;
+	}
+
+	.common-btn {
+	    font-size: 13px;
+	    line-height: 18px;
+	    padding: 8px 6px 8px 16px;
+	}
+
+	.hire-grid-content:before{
+		width: 100%;
+	}
+
+	.bnr-grid-item{
+		padding: 16px 18px;
+	}
+
+	.bnr-grid-item img {
+	    width: 45px;
+	}
+
+	.bnr-grid-name {
+	    font-size: 13px;
+	    line-height: 18px;
+	}
+
+	.hire-sec-title {
+	    font-size: 18px;
+	    line-height: 26px;
+	    text-align: center;
+	}
+
+	.hire-sec-title:before {
+	    width: 160px;
+	    height: 47px;
+	    left: -10px;
+	}
+
+	.bg-grd-wrapper {
+	    padding: 17px;
+	}
+
+	.icon-bg {
+	    width: 45px;
+	    height: 45px;
+	    margin-bottom: 12px;
+	    padding: 7px;
+	}
+
+	.hire-cost{
+		padding: 10px 0;
+	}
+
+	.hire-cost h3 {
+	    font-size: 22px;
+	    line-height: 30px;
+	}
+
+	.hire-cost p {
+	    font-size: 15px;
+	    line-height: 20px;
+	}
+
+	.schedule-call-sec {
+	    padding-top: 130px;
+	}
+
+	.schedule-call{
+		padding: 20px 20px 25px;
+	}
+
+	.calendar-img {
+	    width: 180px;
+	    margin-top: -110px;
+	}
+
+	.schedule-call-title {
+	    font-size: 22px;
+	    line-height: 26px;
+    	margin-bottom: 15px;
+	}
+
+	.top-dev-grid .grid-number {
+	    font-size: 36px;
+	    line-height: 44px;
+	    top: 2px;
+	    right: 15px;
+	}
+
+	.top-dev-grid .top-dev-icon {
+	    width: 40px;
+	    margin-bottom: 6px;
+	}
+
+	.our-work-sec {
+	    padding: 35px 0;
+	}
+
+	.access-top-developer {
+	    padding: 40px 0 60px;
+	}
+
+	.comparsion-sec:before {
+	    top: -90px;
+	    height: 90px;
+	}
+}
