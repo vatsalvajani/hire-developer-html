@@ -172,9 +172,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-	.hire-content-section{
-		margin-top: 35px;
-	}
 
 	.dev-title {
 	    font-size: 36px;
@@ -189,8 +186,9 @@
 	}
 
 	.hire-grid-content{
-		padding-top: 55px;
+		padding-top: 110px;
 		background-size: 70%;
+    	background-position: top 30px center;
 	}
 
 	.bnr-grid-item {
@@ -483,7 +481,6 @@
 
 	.hire-content-section {
 		width: 52%;
-	    margin-top: 25px;
 	}
 
 	.dev-title {
@@ -732,18 +729,6 @@
 	.our-work-items .work-item span:before{
 		left: 30px;
 	}
-}
-
-@media only screen and (max-width: 575px) {
-
-	body{
-		font-size: 14px;
-		line-height: 20px;
-	}
-
-	.container{
-		padding: 0 15px;
-	}
 
 	.hire-bnr-conntent{
 		flex-direction: column;
@@ -755,18 +740,30 @@
 	}
 
 	.hire-content-section{
-		margin-top: 0px;
 		margin-bottom: 50px;
 		text-align: center;
 	}
 
 	.hire-grid-content{
 		margin-bottom: -90px;
+		background-position: top 0px center;
 	}
 
 	.hire-grid-content:before {
 	    width: calc(100% + 15px);
 	    height: calc(100% - 45px);
+	}
+}
+
+@media only screen and (max-width: 575px) {
+
+	body{
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.container{
+		padding: 0 15px;
 	}
 
 	.bnr-grid-item {

@@ -141,6 +141,8 @@ a{
   color: #232323;
   margin-bottom: 40px;
   position: relative;
+  font-family: 'Poppins-Bold';
+  text-transform: uppercase;
 }
 
 .hire-sec-title:before{
@@ -223,7 +225,6 @@ a{
 }
 
 .hire-content-section{
-  margin-top: 50px;
   width: 56%;
   color: #fff;
 }
@@ -231,14 +232,13 @@ a{
 .dev-title{
   font-size: 52px;
   line-height: 62px;
-  font-family: 'DMSans-Bold';
+  font-family: 'Poppins-Bold';
   margin-bottom: 16px;
 }
 
 .dev-subtxt{
   font-size: 19px;
   line-height: 30px;
-  font-family: 'Montserrat-Medium';
   margin-bottom: 32px;
 }
 
@@ -250,10 +250,10 @@ a{
   width: 42%;
   background-image: url('../images/banner-grid-shape.svg');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top 10px center;
   background-size: 80%;
-  padding-top: 100px;
-  margin-bottom: -150px;
+  padding-top: 120px;
+  margin-bottom: -110px;
   z-index: 1;
   position: relative;
 }
@@ -420,7 +420,7 @@ a{
 
 .tabbed-content ul li a{
   color: #fff;
-  opacity: 0.4;
+  opacity: 0.6;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -832,7 +832,6 @@ a{
   transform: rotate(-90deg);
   position: relative;
   justify-content: flex-start;
-  min-height: 250px;
 }
 
 .our-work-items .work-item.active span{
@@ -845,8 +844,8 @@ a{
   white-space: nowrap;
   cursor: pointer;
   padding-left: 75px;
-  left: -95px;
-  top: 110px;
+  left: 30px;
+  top: -5px;
 }
 
 .our-work-items .work-item.active span:before{
@@ -1016,3 +1015,28 @@ a{
   margin-left: 8px;
 }
 /* */
+
+.ani-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1s ease;
+}
+
+.ani-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease;
+}
+
+.ani-right,
+.work-technologies-right ul {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease;
+}
+
+.left-box-animate,
+.right-box-animate {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
