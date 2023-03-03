@@ -996,13 +996,29 @@
 	}
 
 	.project-info-wrapper{
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: flex-start;
+	}
+
+	.our-work-items .work-item{
+		margin-bottom: 15px;
 	}
 
 	.project-content,
 	.project-mock-up{
 		width: 100%;
+	}
+
+	.project-content h4{
+		margin-bottom: 10px;
+	}
+
+	.project-content{
+		margin-top: 15px;
+	}
+
+	.our-work-items .info:last-child{
+		margin-bottom: 0px;
 	}
 }
 
