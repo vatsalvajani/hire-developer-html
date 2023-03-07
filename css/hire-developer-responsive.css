@@ -582,7 +582,7 @@
 	.tabbed-content .item.active{
 		border-radius: 16px;
 		box-shadow: 16px 16px 20px rgb(0 0 0 / 4%);
-		background-color: #fff;
+		background-color: #fff !important;
 	}
 
 	.tabb-inner-content{

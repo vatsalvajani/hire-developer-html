@@ -834,6 +834,7 @@ a{
   transform: rotate(-90deg);
   position: relative;
   justify-content: flex-start;
+  background: transparent !important;
 }
 
 .our-work-items .work-item.active span{
