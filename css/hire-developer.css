@@ -113,7 +113,7 @@ a{
 }
 
 .common-padding{
-  padding-top: 85px;
+  padding-top: 110px;
   padding-bottom: 77px;
   background-color: #162082;
 }
@@ -213,9 +213,9 @@ a{
 /* */
 
 /* banner section */
-.hire-dev-banner{
+/* .hire-dev-banner{
   position: relative;
-}
+} */
 
 .hire-bnr-conntent{
   display: inline-flex;
@@ -252,7 +252,7 @@ a{
   background-position: top 10px center;
   background-size: 80%;
   padding-top: 120px;
-  margin-bottom: -110px;
+  margin-bottom: -140px;
   z-index: 1;
   position: relative;
 }
@@ -418,7 +418,8 @@ a{
 }
 
 .tabbed-content ul li a{
-  color: #fff;
+  color: #fff !important;
+  background: transparent !important;
   opacity: 0.6;
   font-size: 16px;
   line-height: 24px;
@@ -478,6 +479,8 @@ a{
 
 .tabbed-content .item{
   position: relative;
+  background: transparent !important;
+  color: transparent !important;
 }
 
 .tabbed-content .tabs {
