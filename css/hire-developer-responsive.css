@@ -906,6 +906,10 @@
 	    top: -120px;
 	    height: 120px;
 	}
+
+	.our-work-items .work-item span:before{
+		bottom: -20px;
+	}
 }
 
 @media only screen and (max-width: 479px) {
