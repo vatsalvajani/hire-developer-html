@@ -9,16 +9,9 @@
 		line-height: 58px;
 	}
 
-	.dev-subtxt {
-	    font-size: 17px;
-	    line-height: 28px;
-	    margin-bottom: 26px;
-	}
-
 	.common-btn{
-		font-size: 14px;
-		line-height: 20px;
-		padding: 10px 8px 10px 20px;
+		font-size: 16px;
+		padding: 9px 8px 9px 20px;
 	}
 
 	.common-btn img{
@@ -180,8 +173,8 @@
 	}
 
 	.dev-subtxt{
-		font-size: 16px;
-    	line-height: 26px;
+		font-size: 14px;
+    	line-height: 22px;
     	margin-bottom: 22px;
 	}
 
@@ -475,6 +468,12 @@
 		top: -140px;
 		height: 140px;
 	}
+
+	.common-btn {
+	    font-size: 14px;
+	    padding: 7px 6px 7px 16px;
+	}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1024,6 +1023,11 @@
 	.our-work-items .info:last-child{
 		margin-bottom: 0px;
 	}
+
+	.common-btn {
+	    font-size: 13px;
+	    padding: 6px 6px 6px 14px;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -1038,15 +1042,7 @@
 	}
 
 	.dev-subtxt {
-	    font-size: 15px;
-	    line-height: 24px;
 	    margin-bottom: 18px;
-	}
-
-	.common-btn {
-	    font-size: 13px;
-	    line-height: 18px;
-	    padding: 8px 6px 8px 16px;
 	}
 
 	.hire-grid-content:before{
